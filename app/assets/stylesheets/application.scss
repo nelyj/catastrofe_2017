@@ -13,5 +13,87 @@
  *= require_tree .
  *= require_self
  */
-@import "bootstrap-sprockets";
-@import "bootstrap";
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+ @import "font-awesome";
+
+ .header-image {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background: url('https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/01/26181227/Chile-Incendio16.jpg') no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.headline {
+  padding: 120px 0;
+}
+
+.headline h1 {
+  font-size: 130px;
+  background: #fff;
+  background: rgba(255,255,255,0.7);
+}
+
+.headline h2 {
+  font-size: 60px;
+  background: #fff;
+  background: rgba(255,255,255,0.7);
+}
+
+.map{
+  height:500px;
+  margin-left: -15px;
+}
+
+footer {
+  margin: 50px 0;
+}
+
+@media(max-width:1200px) {
+  .headline h1 {
+    font-size: 140px;
+  }
+  .headline h2 {
+    font-size: 63px;
+  }
+}
+
+@media(max-width:991px) {
+  .headline h1 {
+    font-size: 105px;
+  }
+  .headline h2 {
+    font-size: 50px;
+  }
+}
+
+@media(max-width:768px) {
+  .container {
+    margin: 0 15px;
+  }
+}
+
+@media(max-width:668px) {
+  .headline h1 {
+    font-size: 70px;
+  }
+  .headline h2 {
+    font-size: 32px;
+  }
+}
+
+@media(max-width:640px) {
+  .headline {
+    padding: 75px 0 25px 0;
+  }
+  .headline h1 {
+    font-size: 60px;
+  }
+  .headline h2 {
+    font-size: 30px;
+  }
+}

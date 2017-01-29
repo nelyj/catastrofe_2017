@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-ruby '2.2.3'
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
@@ -21,6 +20,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'rails_admin', '~> 1.0'
 gem 'geocoder'
+gem 'font-awesome-sass', '~> 4.7.0'
 
 group :development, :test do
   gem 'byebug', platform: :mri
