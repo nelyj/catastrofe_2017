@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170129205935) do
+ActiveRecord::Schema.define(version: 20170129220808) do
 
   create_table "acopios", force: :cascade do |t|
     t.string   "direccion"
@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 20170129205935) do
     t.string   "url"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string   "rut"
   end
 
   create_table "direccions", force: :cascade do |t|
