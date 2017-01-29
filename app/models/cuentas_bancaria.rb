@@ -1,0 +1,2 @@
+class CuentasBancaria < ApplicationRecord
+end
