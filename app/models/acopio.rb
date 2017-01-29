@@ -1,2 +1,0 @@
-class Acopio < ApplicationRecord
-end

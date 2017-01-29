@@ -30,6 +30,17 @@ ActiveRecord::Schema.define(version: 20170129205935) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "direccions", force: :cascade do |t|
+    t.string   "telefono"
+    t.string   "contacto"
+    t.string   "horario_atencion"
+    t.string   "dias_atencion"
+    t.float    "latitude"
+    t.float    "longitude"
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
+  end
+
   create_table "donaciones", force: :cascade do |t|
     t.string   "nombre"
     t.string   "nombre_banco"
