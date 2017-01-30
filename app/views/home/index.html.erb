@@ -1,118 +1,145 @@
-    <!-- Full Width Image Header -->
-    <header class="header-image">
-      <div class="headline">
-        <div class="container">
-          <h1>¡AYUDA CHILE!</h1>
-          <h2>Reporta tus necesidades, incidentes o emergencias en las zonas afectadas</h2>
-          <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal">
-            Reportar Ayuda o Emergencia <i class="fa fa-ambulance" aria-hidden="true"></i>
-          </button>
-        </div>
+<!--MODAL DONAR PLATA-->
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <h4>Donaciones en Dinero</h4>
+    <p>n° de cuentas y datos</p>
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Gracias</a>
+  </div>
+</div>
+<!--MODAL DONAR COMIDA Y ROPA-->
+<div id="modal2" class="modal">
+  <div class="modal-content">
+    <h4>Lugares de Acopio</h4>
+    <p>direcciones y datos</p>
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Gracias</a>
+  </div>
+</div>
+<!--MODAL REPORTE-->
+<div id="modal3" class="modal">
+  <div class="modal-content">
+    <h4>Reporta emergencia</h4>
+    <p>direcciones y datos</p>
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Gracias</a>
+  </div>
+</div>
+<!--MODAL CTA CORRIENTE-->
+<div id="modal4" class="modal">
+  <div class="modal-content">
+    <h4>Cuentas corrientes</h4>
+    <p>N° y datos</p>
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Gracias</a>
+  </div>
+</div>
+<!--MODAL VOLUNTARIO CHILE-->
+<div id="modal5" class="modal">
+  <div class="modal-content">
+    <h4>Voluntariado</h4>
+    <p>direcciones y datos</p>
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Gracias</a>
+  </div>
+</div>
+<!--MODAL VOLUNTARIO EXTRENJERO-->
+<div id="modal6" class="modal">
+  <div class="modal-content">
+    <h4>Voluntariado</h4>
+    <p>direcciones y datos</p>
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Gracias</a>
+  </div>
+</div>
+<!--SECCION PORTADA-->
+<section id="principal">
+  <div class="container">
+   <div class="row">
+      <div class="col s12 center-align title1">
+        <h1>¡AYUDA CHILE!</h1>
+        <h4>Reporta tus necesidades, incidentes o emergencias en las zonas afectadas</h4>
+        <!--BOTONES-->
+        <a class="waves-effect waves-light btn  red darken-4" href="#modal1"><i class="material-icons right">attach_money</i>Donar plata</a>
+        <a class="waves-effect waves-light btn  red darken-4" href="#modal2"><i class="material-icons right"><i class="material-icons">shopping_cart</i></i>Donar comida y ropa</a>
+        <a class="waves-effect waves-light btn  red darken-4" href="#modal3"><i class="material-icons right">cloud</i>button</a>
       </div>
-    </header>
-
+    </div>  
+  </div>
+</section>
+ <!--DONACIOENES E INFORMACION-->
+<section id="voluntarios">
+  <div class="container">
     <div class="row">
-      <div class="col-lg-6">
-        <div class="map">
-          <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-          <br />
-          <small>
-            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-          </small>
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <h3>Reporta Tu Emergencia, Daño o Pedido de ayuda</h3>
-        <hr>
-        <h4>Pasos para hacer un reporte:</h4>
-        <p>Ingresa a la web website una plataforma para el mapeo de informes de daños ocurridos.<br>
-          Haz click en el botón <a href="#" data-toggle="modal" data-target="#myModal">Reportar emergencia</a>.</p>
-          <hr>
-          <h4>Completar el formulario:</h4>
-          <p><b>Título del reporte:</b> Acorde a la necesidad.</p>
-          <p><b>Descripción:</b> Direcciones, fuentes de la información y cualquier detalle adicional.</p>
-          <p><b>Categorías:</b> Existen 5 y varias subcategorías para elegir, según sea la necesidad.</p>
-          <p><b>Datos personales:</b> Ppcional, para que se contacten contigo por más información.</p>
-          <p><b>Ubicación:</b> Dirección o Latitud y longitud</p>
-          <p><b>Enlace a fuente de Noticias:</b> opcional, si tienes algún enlace con más información.</p>
-          <p><b>URL de video:</b> enlaces a videos o imágenes, en caso de que existan.</p>
-          <p><b>Subir Fotos:</b> adjuntar archivos de imágenes.</p>
-          <p>Después de llenar el formulario, haz click en enviar.</p>
-          <p>El equipo verificador revisará la información y aprobará el mensaje. Esto podría tardar algunos minutos</p>
-        </div>
-
-      </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <h3>Cuentas Bancarias para Transferencia</h3>
-          <hr>
-          <table class="table">
-            <thead>
-              <tr>
-                <th>Nombre</th>
-                <th>Banco</th>
-                <th>Cuenta</th>
-                <th>URL</th>
-              </tr>
-            </thead>
-            <tbody>
-
-            </tbody>
-          </table>
-
-          <h3>Recolección de ayuda para bomberos</h3>
-          <hr>
-          <table class="table">
-            <thead>
-              <tr>
-                <th>Región</th>
-                <th>Comuna</th>
-                <th>Dirección</th>
-                <th>Teléfono</th>
-                <th>Horario de atención</th>
-                <th>Días de atención</th> 
-              </tr>
-            </thead>
-            <tbody>
-
-            </tbody>
-          </table>
-
-          <h3>Centros de acopio</h3>
-          <hr>
-          <table class="table">
-            <thead>
-              <tr>
-                <th>Región</th>
-                <th>Comuna</th>
-                <th>Dirección</th>
-                <th>Teléfono</th>
-                <th>Horario de atención</th>
-                <th>Días de atención</th>
-              </tr>
-            </thead>
-            <tbody>
-
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      <!-- Modal -->
-      <div class="modal fade bs-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog modal-lg" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-            </div>
-            <div class="modal-body">
-              ...
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">Cuentas Ctes Donacion</span>
+            <p></p>
+          </div>
+          <div class="card-action">
+            <a href="#modal4">Ver más</a>
           </div>
         </div>
       </div>
+      <div class="col s12 m4">
+         <div class="card">
+          <div class="card-content">
+            <span class="card-title">Voluntariado Chile</span>
+            <p>Si estas en Chile y estás interesado(a) en ser
+parte del equipo de voluntarios acá puedes encontrar donde puedes ayudar.</p>
+          </div>
+          <div class="card-action">
+            <a href="#modal5">Ver más</a>
+          </div>
+        </div>
+     </div>
+     <div class="col s12 m4">
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">Voluntariado Extranjero</span>
+            <p>Si estas en el extranjero acá encontraras toda la información de donde y como entregar tu donación.</p>
+          </div>
+          <div class="card-action">
+            <a href="#modal6">Ver más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--INFORMACION EN LINEA -->
+<section id="informacion">
+  <div class="container">
+    <div class="row">
+      <div class="col s12 m6">
+        <a class="twitter-timeline" href="https://twitter.com/onemichile">Tweets by onemichile</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      <div class="col s12 m6 twitter-wjs">
+        <a class="twitter-timeline" href="https://twitter.com/conaf_minagri">Tweets by conaf_minagri</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      <div class="col s12 twitter-wjs">
+          <iframe width="100%" height="500px" frameborder="0" scrolling="no" allowfullscreen src="http://arcg.is/2k7jv9u"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+<!--PIE DE PAGINA-->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col s6">
+        <h4>Contacto</h4>
+      </div>
+      <div class="col s6">
+        <h4>holi</h4>
+      </div>
+    </div>
+  </div>
+</footer>

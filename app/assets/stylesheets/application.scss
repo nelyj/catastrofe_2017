@@ -97,3 +97,31 @@ footer {
     font-size: 30px;
   }
 }
+
+/*Primera seccion*/
+#principal {
+  background-image: url(../img/banner01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  color: #fff !important; }
+  #principal .title1 {
+    position: relative;
+    right: 0;
+    left: 0;
+    top: 50%;
+    transform: translateY(50%); }
+
+/*Seccion tarjetas*/
+#voluntarios {
+  margin-top: 2%; }
+  #voluntarios .card-action a {
+    color: #b71c1c !important; }
+  #voluntarios .card-content {
+    height: 200px; }
+
+footer {
+  background-color: #b71c1c !important;
+  color: #fff !important;
+  height: 100px; }
