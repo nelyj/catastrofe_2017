@@ -13,10 +13,10 @@
  *= require_tree .
  *= require_self
  */
- @import "bootstrap-sprockets";
- @import "bootstrap";
+ @import "materialize";
  @import "font-awesome";
 
+<<<<<<< HEAD
 @media(max-width:1200px) {
   .headline h1 {
     font-size: 140px;
@@ -90,3 +90,4 @@ footer {
   background-color: #b71c1c !important;
   color: #fff !important;
   height: 100px; }
+
