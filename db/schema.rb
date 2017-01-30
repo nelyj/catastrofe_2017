@@ -12,15 +12,6 @@
 
 ActiveRecord::Schema.define(version: 20170129225520) do
 
-  create_table "acopios", force: :cascade do |t|
-    t.string   "direccion"
-    t.string   "telefono"
-    t.string   "horario_atencion"
-    t.string   "dias_atencion"
-    t.datetime "created_at",       null: false
-    t.datetime "updated_at",       null: false
-  end
-
   create_table "cuentas_bancaria", force: :cascade do |t|
     t.string   "nombre"
     t.string   "banco"
@@ -30,25 +21,6 @@ ActiveRecord::Schema.define(version: 20170129225520) do
     t.datetime "updated_at", null: false
     t.string   "rut"
     t.string   "contact"
-  end
-
-  create_table "direccions", force: :cascade do |t|
-    t.string   "telefono"
-    t.string   "contacto"
-    t.string   "horario_atencion"
-    t.string   "dias_atencion"
-    t.float    "latitude"
-    t.float    "longitude"
-    t.datetime "created_at",       null: false
-    t.datetime "updated_at",       null: false
-  end
-
-  create_table "donaciones", force: :cascade do |t|
-    t.string   "nombre"
-    t.string   "nombre_banco"
-    t.string   "numero_cuenta"
-    t.datetime "created_at",    null: false
-    t.datetime "updated_at",    null: false
   end
 
   create_table "places", force: :cascade do |t|
@@ -64,13 +36,6 @@ ActiveRecord::Schema.define(version: 20170129225520) do
     t.float    "longitude"
     t.string   "title"
     t.text     "comment"
-  end
-
-  create_table "regions", force: :cascade do |t|
-    t.string   "name"
-    t.string   "region_number"
-    t.datetime "created_at",    null: false
-    t.datetime "updated_at",    null: false
   end
 
 end
