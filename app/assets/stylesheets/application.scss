@@ -17,42 +17,6 @@
  @import "bootstrap";
  @import "font-awesome";
 
- .header-image {
-  display: block;
-  width: 100%;
-  text-align: center;
-  background: url('https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/01/26181227/Chile-Incendio16.jpg') no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-
-.headline {
-  padding: 120px 0;
-}
-
-.headline h1 {
-  font-size: 130px;
-  background: #fff;
-  background: rgba(255,255,255,0.7);
-}
-
-.headline h2 {
-  font-size: 60px;
-  background: #fff;
-  background: rgba(255,255,255,0.7);
-}
-
-.map{
-  height:500px;
-  margin-left: -15px;
-}
-
-footer {
-  margin: 50px 0;
-}
-
 @media(max-width:1200px) {
   .headline h1 {
     font-size: 140px;
@@ -100,13 +64,14 @@ footer {
 
 /*Primera seccion*/
 #principal {
-  background-image: url(../img/banner01.jpg);
+  background-image: url(http://i.imgur.com/RFN4czR.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 90vh;
   color: #fff !important; }
-  #principal .title1 {
+
+#principal .title1 {
     position: relative;
     right: 0;
     left: 0;
@@ -116,9 +81,9 @@ footer {
 /*Seccion tarjetas*/
 #voluntarios {
   margin-top: 2%; }
-  #voluntarios .card-action a {
+#voluntarios .card-action a {
     color: #b71c1c !important; }
-  #voluntarios .card-content {
+#voluntarios .card-content {
     height: 200px; }
 
 footer {
