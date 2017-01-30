@@ -16,8 +16,7 @@
  @import "materialize";
  @import "font-awesome";
 
-<<<<<<< HEAD
-@media(max-width:1200px) {
+ @media(max-width:1200px) {
   .headline h1 {
     font-size: 140px;
   }
@@ -69,25 +68,31 @@
   background-size: cover;
   background-position: center;
   height: 90vh;
-  color: #fff !important; }
+  color: #fff !important; 
+}
 
 #principal .title1 {
-    position: relative;
-    right: 0;
-    left: 0;
-    top: 50%;
-    transform: translateY(50%); }
+  position: relative;
+  right: 0;
+  left: 0;
+  top: 50%;
+  transform: translateY(50%);
+}
 
 /*Seccion tarjetas*/
 #voluntarios {
-  margin-top: 2%; }
+  margin-top: 2%; 
+}
 #voluntarios .card-action a {
-    color: #b71c1c !important; }
+  color: #b71c1c !important; 
+}
 #voluntarios .card-content {
-    height: 200px; }
+  height: 200px; 
+}
 
 footer {
   background-color: #b71c1c !important;
   color: #fff !important;
-  height: 100px; }
+  height: 100px; 
+}
 
